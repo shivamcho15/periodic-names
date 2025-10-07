@@ -1,0 +1,17 @@
+.ptable {
+    display: grid;
+    grid-template-columns: repeat(18, 80px);
+    /* 18 groups (columns) */
+    grid-template-rows: repeat(10, 80px);
+    /* Enough rows for all elements */
+    column-gap: 0;
+    /* Remove any gap between columns */
+    row-gap: 0;
+    /* Ensure no gap between rows */
+}
+
+.element-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,153 @@
+.element {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: "number . mass" ". symbol ." ". name ." ". electron_config .";
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    padding: 8px;
+}
+
+.number {
+    grid-area: number;
+    font-size: 10px;
+    ;
+    position: absolute;
+    top: -18px;
+    left: 5px;
+}
+
+.mass {
+    grid-area: mass;
+    font-size: 10px;
+    ;
+    position: absolute;
+    top: -18px;
+    right: 5px;
+}
+
+.symbol {
+    grid-area: symbol;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.name {
+    grid-area: name;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-top: -30px;
+    ;
+}
+
+.electron_config {
+    grid-area: electron_config;
+    font-size: 10px;
+    margin-top: -10px;
+    ;
+}
+
+
+/* Transition Metals */
+
+.transition_metal {
+    background-color: #F64D79;
+    /* Muted Pinkish Purple */
+}
+
+
+/* Diatomic Nonmetals */
+
+.diatomic_nonmetal {
+    background-color: #4FC7A3;
+    /* Teal */
+}
+
+
+/* Polyatomic Nonmetals */
+
+.polyatomic_nonmetal {
+    background-color: #FF6F61;
+    /* Soft Coral */
+}
+
+
+/* Noble Gases */
+
+.noble_gas {
+    background-color: #DA5ACD;
+    /* Slate Blue */
+}
+
+
+/* Alkali Metals */
+
+.alkali_metal {
+    background-color: #FF9F00;
+    /* Vibrant Amber */
+}
+
+
+/* Alkaline Earth Metals */
+
+.alkaline_earth_metal {
+    background-color: #F2C14E;
+    /* Soft Yellow */
+}
+
+
+/* Lanthanides */
+
+.lanthanide {
+    background-color: #00CF9F;
+    /* Dark Teal */
+}
+
+
+/* Actinides */
+
+.actinide {
+    background-color: #FC5F6D;
+    /* Deep Burgundy */
+}
+
+
+/* Metalloids */
+
+.metalloid {
+    background-color: #6DBE45;
+    /* Fresh Green */
+}
+
+
+/* Post-transition Metals */
+
+.post-transition_metal {
+    background-color: #70A1D7;
+    /* Soft Blue */
+}
+
+
+/* Unknown Elements */
+
+.unknown {
+    background-color: #B4B8C3;
+    /* Light Grayish Blue */
+}
+
+
+/* 
+        "transition metal":"purple",
+        "diatomic nonmetal":"light blue",
+        "polyatomic nonmetal":"light blue",
+        "noble gas":"red",
+        "alkali metal":"cyan",
+        "alkaline_earth_metal":"orange",
+        "lanthanide":"yellow",
+        "actinide":"brown",
+        "metalloid":"red",
+ */
